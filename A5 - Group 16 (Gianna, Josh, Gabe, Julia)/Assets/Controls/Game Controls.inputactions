@@ -1,0 +1,45 @@
+{
+    "name": "Game Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e8a76812-88ad-48f6-9411-e23fe36ee16e",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "a37199e6-a097-4be1-a308-fb4574cba9e8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b3ec20c8-9c27-4939-b2e7-a165e10884c1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard Controls",
+            "bindingGroup": "Keyboard Controls",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
