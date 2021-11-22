@@ -1,0 +1,28 @@
+Just imagine you're marking these as you finish them idk
+
+1. [15 marks] Make a new 3D project and Git repository named with assignment number and group
+name. Be sure all group members are using Git and making commits in the spirit of collaborative
+source control. Add the markers and the instructor with Reporter level permission (GitLab) or
+Collaborator (GitHub). //Done By Gabe, Gianna
+
+
+2. [5 marks] Remove your player movement, camera code, and levels from Assignment #4. //Done By Gianna
+
+3. [30 marks] Add the ability to procedurally generate a level. You may use prefab elements (wall
+segments, collectables, enemies, etc.) as puzzle pieces to build the level. Your level should have a
+start and end point. Upon reaching the end, the next procedurally generated level should begin.
+The player should have the ability to quit at any time and be taken to the completion screen which
+shows statistics like levels completed, time taken, etc.
+
+4. [10 marks] Add an overhead camera that follows the player through the level (i.e., as the player
+moves, the camera centers on the players x, z position).
+
+5. [10 marks] Create a NavMesh for the current level. Obstacles should be flagged as static.
+
+6. [10 marks] Add a NavAgent script to the player.
+
+7. [10 marks] Add the ability to click on a location and have the NavAgent move the player to that
+location (if reachable). If the location contains a collectable, collect it. If the location contains an
+enemy, approach and attack (melee).
+
+8. [10 marks] Add features to make your game uniquely yours and awesome.
