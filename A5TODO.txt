@@ -9,8 +9,11 @@ Collaborator (GitHub). //Done By Gabe, Gianna
 2. [5 marks] Remove your player movement, camera code, and levels from Assignment #4. //Done By Gianna
 
 3. [30 marks] Add the ability to procedurally generate a level. You may use prefab elements (wall
-segments, collectables, enemies, etc.) as puzzle pieces to build the level. Your level should have a
-start and end point. Upon reaching the end, the next procedurally generated level should begin.
+segments, collectables, enemies, etc.) as puzzle pieces to build the level. // Done by Gabe
+
+
+
+ Your level should have a start and end point. Upon reaching the end, the next procedurally generated level should begin.
 The player should have the ability to quit at any time and be taken to the completion screen which
 shows statistics like levels completed, time taken, etc.
 
