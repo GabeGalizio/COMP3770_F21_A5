@@ -7,10 +7,10 @@
     <list default="true" id="b456bf26-0590-470d-8aa2-8c62828d3fbb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.A5 - Group 16 (Gianna, Josh, Gabe, Julia)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A5 - Group 16 (Gianna, Josh, Gabe, Julia)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lava_Flowing_Shader/Materials/mtl_lava_diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lava_Flowing_Shader/Materials/mtl_lava_diffuse.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NavMeshBaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RoomBehaviourScript.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21LDPO8grNbp1uB84q3Jyc2In7g" />
@@ -73,7 +74,7 @@
       <updated>1637711451979</updated>
       <workItem from="1637711460899" duration="4886000" />
       <workItem from="1637720794253" duration="6373000" />
-      <workItem from="1638299193357" duration="906000" />
+      <workItem from="1638299193357" duration="7576000" />
     </task>
     <servers />
   </component>

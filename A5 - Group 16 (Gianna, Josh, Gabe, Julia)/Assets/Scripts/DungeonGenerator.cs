@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class DungeonGenerator : MonoBehaviour
 {
@@ -11,9 +12,11 @@ public class DungeonGenerator : MonoBehaviour
         public bool[] status = new bool[4];
     }
 
+    [SerializeField] NavMeshSurface[] navMeshSurfaces;
     public Vector2 size;
     public int startPos=0;
     public GameObject[] room;
+    public GameObject player;
     public Vector2 offset;
 
     private List<Cell> board;
@@ -22,6 +25,7 @@ public class DungeonGenerator : MonoBehaviour
     void Start()
     {
         MazeGenerator();
+        
     }
     
     void GenerateDungeon()
@@ -30,15 +34,25 @@ public class DungeonGenerator : MonoBehaviour
         {
             for (int j = 0; j < size.y; j++)
             {
-                int randomRoom = Random.Range(0, room.Length);
-                var newRoom= Instantiate(room[randomRoom], new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
-               newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
-
-               newRoom.name += " " + i + "-" + j;
+                if (i==0 && j==0)
+                {
+                   // int randomRoom = Random.Range(0, room.Length);
+                    var newRoom= Instantiate(room[0], new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
+                    newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
+                    newRoom.name += " " + i + "-" + j;
+                    Instantiate(player, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity);
+                }
+                else
+                {
+                    int randomRoom = Random.Range(0, room.Length);
+                    var newRoom= Instantiate(room[randomRoom], new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
+                    newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
+                    newRoom.name += " " + i + "-" + j;
+                }
             }
         }
-        
-        
+
+        BakeNavMesh();
     }
 
 
@@ -137,5 +151,12 @@ public class DungeonGenerator : MonoBehaviour
         }
         return neighbour;
 
+    }
+    
+    public void BakeNavMesh(){ 
+        foreach (var navMeshSurface in navMeshSurfaces)
+        {
+            navMeshSurface.BuildNavMesh();
+        }
     }
 }
