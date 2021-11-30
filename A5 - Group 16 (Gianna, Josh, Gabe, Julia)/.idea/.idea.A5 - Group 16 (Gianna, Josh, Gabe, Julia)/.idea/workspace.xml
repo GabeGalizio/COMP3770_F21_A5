@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b456bf26-0590-470d-8aa2-8c62828d3fbb" name="Changes" comment="" />
+    <list default="true" id="b456bf26-0590-470d-8aa2-8c62828d3fbb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.A5 - Group 16 (Gianna, Josh, Gabe, Julia)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A5 - Group 16 (Gianna, Josh, Gabe, Julia)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637711451979</updated>
       <workItem from="1637711460899" duration="4886000" />
-      <workItem from="1637720794253" duration="2663000" />
+      <workItem from="1637720794253" duration="6373000" />
     </task>
     <servers />
   </component>

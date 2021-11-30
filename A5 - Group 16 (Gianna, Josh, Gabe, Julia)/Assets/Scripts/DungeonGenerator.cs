@@ -13,7 +13,7 @@ public class DungeonGenerator : MonoBehaviour
 
     public Vector2 size;
     public int startPos=0;
-    public GameObject room;
+    public GameObject[] room;
     public Vector2 offset;
 
     private List<Cell> board;
@@ -30,7 +30,8 @@ public class DungeonGenerator : MonoBehaviour
         {
             for (int j = 0; j < size.y; j++)
             {
-               var newRoom= Instantiate(room, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
+                int randomRoom = Random.Range(0, room.Length);
+                var newRoom= Instantiate(room[randomRoom], new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
                newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
 
                newRoom.name += " " + i + "-" + j;

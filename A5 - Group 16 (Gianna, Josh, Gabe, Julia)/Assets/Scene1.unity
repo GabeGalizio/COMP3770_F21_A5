@@ -261,7 +261,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   size: {x: 5, y: 5}
   startPos: 0
-  room: {fileID: 3825561957686686187, guid: 93eec3274344e784aa6d599b787d6e78, type: 3}
+  room:
+  - {fileID: 3825561957686686187, guid: 93eec3274344e784aa6d599b787d6e78, type: 3}
+  - {fileID: 6984169756389573274, guid: ff84d73d43644484591c4d95c77270a2, type: 3}
+  - {fileID: 3650693007250426919, guid: 439ed641108995940a27b8d6ad8d017f, type: 3}
   offset: {x: 10, y: 10}
 --- !u!1 &1744087985
 GameObject:
