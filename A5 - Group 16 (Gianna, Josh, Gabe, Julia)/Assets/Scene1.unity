@@ -262,12 +262,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navMeshSurfaces:
   - {fileID: 815636427}
-  size: {x: 5, y: 5}
+  size: {x: 10, y: 10}
   startPos: 0
   room:
-  - {fileID: 3825561957686686187, guid: 93eec3274344e784aa6d599b787d6e78, type: 3}
-  - {fileID: 6984169756389573274, guid: ff84d73d43644484591c4d95c77270a2, type: 3}
-  - {fileID: 3650693007250426919, guid: 439ed641108995940a27b8d6ad8d017f, type: 3}
+  - room: {fileID: 3825561957686686187, guid: 93eec3274344e784aa6d599b787d6e78, type: 3}
+    minPosition: {x: 0, y: 0}
+    maxPosition: {x: 10, y: 10}
+    obligatory: 0
+  - room: {fileID: 6984169756389573274, guid: ff84d73d43644484591c4d95c77270a2, type: 3}
+    minPosition: {x: 2, y: 1}
+    maxPosition: {x: 5, y: 5}
+    obligatory: 0
+  - room: {fileID: 3650693007250426919, guid: 439ed641108995940a27b8d6ad8d017f, type: 3}
+    minPosition: {x: 3, y: 1}
+    maxPosition: {x: 5, y: 5}
+    obligatory: 0
   player: {fileID: 1830507711941076324, guid: 5fda225ae02b08b4597373081c509e33, type: 3}
   offset: {x: 10, y: 10}
 --- !u!114 &815636427
