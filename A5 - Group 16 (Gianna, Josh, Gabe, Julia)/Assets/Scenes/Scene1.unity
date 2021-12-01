@@ -190,6 +190,7 @@ MonoBehaviour:
     maxPosition: {x: 0, y: 0}
     obligatory: 0
   player: {fileID: 1830507711941076324, guid: 5fda225ae02b08b4597373081c509e33, type: 3}
+  LevelUI: {fileID: 1635011334559458603, guid: de53328fe8465644184bced1cacc0e19, type: 3}
   offset: {x: 10, y: 10}
 --- !u!114 &815636427
 MonoBehaviour:

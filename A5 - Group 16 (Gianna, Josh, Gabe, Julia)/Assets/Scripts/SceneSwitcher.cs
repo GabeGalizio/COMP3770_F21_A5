@@ -13,7 +13,7 @@ public class SceneSwitcher : MonoBehaviour {
 	
 	//Load Level 1 Scene
 	public void ToLevel1() {
-		SceneManager.LoadScene("Level 1");
+		SceneManager.LoadScene("Scene1");
 	}
 	
 	//Load Level 2 Scene

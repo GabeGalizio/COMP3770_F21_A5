@@ -45,6 +45,7 @@ public class DungeonGenerator : MonoBehaviour
     public Rule[] room;
     public Rule[] startRoom;
     public GameObject player;
+    public GameObject LevelUI;
     public Vector2 offset;
 
     private List<Cell> board;
@@ -63,7 +64,7 @@ public class DungeonGenerator : MonoBehaviour
                     var newRoom= Instantiate(startRoom[0].room, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
                     newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
                     newRoom.name += " " + i + "-" + j;
-                    Instantiate(player, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity);
+                    //Instantiate(player, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity);
                     //generates a random room for the remainder of the level
                 }else{
                     int randomRoom = -1;
@@ -100,6 +101,8 @@ public class DungeonGenerator : MonoBehaviour
         }
 
         BakeNavMesh();
+        Instantiate(player, new Vector3(0, 0, 0), Quaternion.identity);
+        Instantiate(LevelUI, new Vector3(0, 0, 0), Quaternion.identity);
     }
     
     // generaterating the maze 

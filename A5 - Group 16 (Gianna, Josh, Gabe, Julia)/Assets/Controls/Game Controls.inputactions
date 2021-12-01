@@ -6,9 +6,17 @@
             "id": "e8a76812-88ad-48f6-9411-e23fe36ee16e",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "MouseClick",
                     "type": "Button",
-                    "id": "a37199e6-a097-4be1-a308-fb4574cba9e8",
+                    "id": "39dd9f10-6870-4d19-b642-558c5f567a7d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OpenMenu",
+                    "type": "Button",
+                    "id": "27c04731-00b1-4491-a881-6c37af9eb4c0",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -17,12 +25,34 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "b3ec20c8-9c27-4939-b2e7-a165e10884c1",
-                    "path": "",
+                    "id": "c211fe6d-edbb-42fc-bcd6-42933f622472",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard Controls",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "328abf42-6a43-4420-b08b-2986139bc01c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard Controls",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc7e6778-3f69-4b45-8909-93e97f1ebdfc",
+                    "path": "<Keyboard>/m",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "OpenMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
