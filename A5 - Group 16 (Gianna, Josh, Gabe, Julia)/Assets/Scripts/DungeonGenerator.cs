@@ -43,6 +43,7 @@ public class DungeonGenerator : MonoBehaviour
     public Vector2Int size;
     public int startPos=0;
     public Rule[] room;
+    public Rule[] startRoom;
     public GameObject player;
     public Vector2 offset;
 
@@ -59,7 +60,7 @@ public class DungeonGenerator : MonoBehaviour
             for (int j = 0; j < size.y; j++) {
                 //on the first room it generates a blank room for the spawn room 
                 if (i==0 && j==0) {
-                    var newRoom= Instantiate(room[0].room, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
+                    var newRoom= Instantiate(startRoom[0].room, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
                     newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
                     newRoom.name += " " + i + "-" + j;
                     Instantiate(player, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity);
@@ -68,7 +69,7 @@ public class DungeonGenerator : MonoBehaviour
                     int randomRoom = -1;
                     List<int> availableRooms = new List<int>();
                     // goes through and decides if the room that is about to be generated needs to spawn
-                    //starts with looking to see the rooms tha can spawn and the rooms that need to spawn
+                    //starts with looking to see the rooms that can spawn and the rooms that need to spawn
                     for (int k = 0; k < room.Length; k++) {
                         int p = room[k].probOfSpawn(i, j);
                         if (p==2) {
