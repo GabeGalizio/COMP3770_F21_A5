@@ -44,7 +44,7 @@ public class SimpleCollectibleScript : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.name == "Player") {
+		if (other.name == "Player(Clone)") {
 			Collect ();
 		}
 	}

@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navMeshSurfaces:
   - {fileID: 815636427}
-  size: {x: 10, y: 20}
+  size: {x: 10, y: 5}
   startPos: 0
   room:
   - room: {fileID: 3825561957686686187, guid: 93eec3274344e784aa6d599b787d6e78, type: 3}
@@ -177,18 +177,27 @@ MonoBehaviour:
     maxPosition: {x: 10, y: 10}
     obligatory: 0
   - room: {fileID: 6984169756389573274, guid: ff84d73d43644484591c4d95c77270a2, type: 3}
-    minPosition: {x: 2, y: 1}
-    maxPosition: {x: 5, y: 5}
+    minPosition: {x: 1, y: 0}
+    maxPosition: {x: 10, y: 3}
     obligatory: 0
   - room: {fileID: 3650693007250426919, guid: 439ed641108995940a27b8d6ad8d017f, type: 3}
-    minPosition: {x: 3, y: 1}
-    maxPosition: {x: 5, y: 5}
+    minPosition: {x: 2, y: 0}
+    maxPosition: {x: 10, y: 3}
+    obligatory: 0
+  - room: {fileID: 7782437223574197006, guid: 50037e7d3c6d95a4e9635099aac4aa81, type: 3}
+    minPosition: {x: 0, y: 0}
+    maxPosition: {x: 10, y: 10}
     obligatory: 0
   startRoom:
   - room: {fileID: 16213464514874767, guid: c5d4130ea17e3dc428697e3b25ce7fbb, type: 3}
     minPosition: {x: 0, y: 0}
     maxPosition: {x: 0, y: 0}
     obligatory: 0
+  endRoom:
+  - room: {fileID: 226219006283792486, guid: 9c6afc55d9078c64e9cbf09c55386ef0, type: 3}
+    minPosition: {x: 9, y: 4}
+    maxPosition: {x: 9, y: 4}
+    obligatory: 1
   player: {fileID: 1830507711941076324, guid: 5fda225ae02b08b4597373081c509e33, type: 3}
   LevelUI: {fileID: 1635011334559458603, guid: de53328fe8465644184bced1cacc0e19, type: 3}
   offset: {x: 10, y: 10}

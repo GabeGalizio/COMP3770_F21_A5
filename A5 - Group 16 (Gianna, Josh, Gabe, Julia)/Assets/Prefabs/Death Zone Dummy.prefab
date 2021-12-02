@@ -50,7 +50,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2527097604742872569}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -111,6 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathSFX: {fileID: 8300000, guid: 2653087049a852d4982b24bdc315a5dc, type: 3}
   audio: {fileID: 2527097604742872568}
+  agent: {fileID: 0}
 --- !u!82 &2527097604742872568
 AudioSource:
   m_ObjectHideFlags: 0

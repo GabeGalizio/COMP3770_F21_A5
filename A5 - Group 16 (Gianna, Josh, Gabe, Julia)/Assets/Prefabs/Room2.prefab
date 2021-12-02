@@ -641,7 +641,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 5
+  m_Range: 2.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -881,7 +881,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 5
+  m_Range: 2.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2874,7 +2874,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 5
+  m_Range: 2.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -3114,7 +3114,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 5
+  m_Range: 2.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -3930,7 +3930,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 5
+  m_Range: 2.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -4362,7 +4362,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 5
+  m_Range: 2.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -4889,7 +4889,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 5
+  m_Range: 2.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -5570,7 +5570,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 5
-  m_Range: 5
+  m_Range: 2.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -6132,7 +6132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2527097604742872572, guid: ddef88ff40fd46d499f1ef8610341055, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.5
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 2527097604742872572, guid: ddef88ff40fd46d499f1ef8610341055, type: 3}
       propertyPath: m_LocalScale.z
@@ -6140,15 +6140,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2527097604742872572, guid: ddef88ff40fd46d499f1ef8610341055, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.34
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 2527097604742872572, guid: ddef88ff40fd46d499f1ef8610341055, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.95
+      value: -1.81
       objectReference: {fileID: 0}
     - target: {fileID: 2527097604742872572, guid: ddef88ff40fd46d499f1ef8610341055, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.6
+      value: -3.54
       objectReference: {fileID: 0}
     - target: {fileID: 2527097604742872572, guid: ddef88ff40fd46d499f1ef8610341055, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6176,6 +6176,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2527097604742872572, guid: ddef88ff40fd46d499f1ef8610341055, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2527097604742872574, guid: ddef88ff40fd46d499f1ef8610341055, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
