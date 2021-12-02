@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b456bf26-0590-470d-8aa2-8c62828d3fbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/End Room.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/End Room.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.A5 - Group 16 (Gianna, Josh, Gabe, Julia)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.A5 - Group 16 (Gianna, Josh, Gabe, Julia)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Controls/Game Controls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Controls/Game Controls.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lava_Flowing_Shader/Materials/mtl_lava_diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lava_Flowing_Shader/Materials/mtl_lava_diffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeathZoneTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeathZoneTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndZoneTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndZoneTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\A5 - Group 16 (Gianna, Josh, Gabe, Julia).exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Gabe\Desktop\SourceFiles\Unity_Fall2021\comp3770a5\A5 - Group 16 (Gianna, Josh, Gabe, Julia)\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -78,6 +89,9 @@
       <workItem from="1638299193357" duration="7576000" />
       <workItem from="1638371751196" duration="5564000" />
       <workItem from="1638384714287" duration="1047000" />
+      <workItem from="1638396252582" duration="607000" />
+      <workItem from="1638412831283" duration="1989000" />
+      <workItem from="1638415247405" duration="381000" />
     </task>
     <servers />
   </component>

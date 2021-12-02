@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 //Script that triggers upon entering level end zone.
 public class EndZoneTrigger : MonoBehaviour {
 	private void OnTriggerEnter(Collider other)	{
-		if (other.gameObject.name.Equals("Player")) {
+		if (other.gameObject.name.Equals("Player(Clone)")) {
 			ScoreTracker.levels++;
 			SceneManager.LoadScene("Scene1");
 		}

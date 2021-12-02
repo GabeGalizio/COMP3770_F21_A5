@@ -44,6 +44,7 @@ public class DungeonGenerator : MonoBehaviour
     public int startPos=0;
     public Rule[] room;
     public Rule[] startRoom;
+    public Rule[] endRoom;
     public GameObject player;
     public GameObject LevelUI;
     public Vector2 offset;
@@ -66,7 +67,11 @@ public class DungeonGenerator : MonoBehaviour
                     newRoom.name += " " + i + "-" + j;
                     //Instantiate(player, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity);
                     //generates a random room for the remainder of the level
-                }else{
+                }else if (i==9 && j==4) {
+                    var newRoom= Instantiate(endRoom[0].room, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviourScript>();
+                    newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
+                    newRoom.name += " " + i + "-" + j;
+                }else {
                     int randomRoom = -1;
                     List<int> availableRooms = new List<int>();
                     // goes through and decides if the room that is about to be generated needs to spawn
@@ -80,6 +85,9 @@ public class DungeonGenerator : MonoBehaviour
                             availableRooms.Add(k);
                         }
                     }
+                    
+                    
+                    
                     //if by the end of seeing if a room can spawn or needs to spawn
                     //we look at the pool of rooms that can spawn and pick one at random
                     if (randomRoom ==-1) {

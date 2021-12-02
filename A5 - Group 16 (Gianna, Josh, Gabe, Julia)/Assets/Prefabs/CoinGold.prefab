@@ -93,14 +93,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1516206009078322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92f02ff222ab99042b3d8db7f170e5d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a609f056fe67f343a89167aa23ed8a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollectibleType: 0
-  rotate: 1
-  rotationSpeed: 10
-  collectSound: {fileID: 8300000, guid: 36db87246f479e849b7704d0d731eb87, type: 3}
-  collectEffect: {fileID: 1702657300312902, guid: 1b8f90b19c32cf146a8544aae6722897, type: 3}
+  rotate: 0
+  rotationSpeed: 0
+  collectSound: {fileID: 0}
+  collectEffect: {fileID: 0}
   newX: 30
   newY: 15
   newZ: 45
