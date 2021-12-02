@@ -5,7 +5,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour {
-	
+
+	public GameObject victim;
 	//Load Menu Scene
 	public void ToMenu() {
 		SceneManager.LoadScene("Main Menu");
@@ -41,4 +42,8 @@ public class SceneSwitcher : MonoBehaviour {
 		Application.Quit();
     }
 	
+	//Kills, makes Die, Murder Kills The thing
+	public void KillDieMurder() {
+		Destroy(victim);
+    }
 }

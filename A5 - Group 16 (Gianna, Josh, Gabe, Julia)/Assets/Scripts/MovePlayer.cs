@@ -22,15 +22,20 @@ public class MovePlayer : MonoBehaviour {
     }
 
     void OnMouseClick() {
-        Debug.Log("Mouse clicked, posn is " + Mouse.current.position.ReadValue() + ".");
-        Ray ray = camera.ScreenPointToRay(Mouse.current.position.ReadValue());
-        RaycastHit hit;
-        if(Physics.Raycast(ray, out hit)) {
-            agent.destination = hit.point;
+        if (GameObject.Find("Pause Menu(Clone)") == null) {
+            Debug.Log("Mouse clicked, posn is " + Mouse.current.position.ReadValue() + ".");
+            Ray ray = camera.ScreenPointToRay(Mouse.current.position.ReadValue());
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                agent.destination = hit.point;
+            }
         }
     }
 
     void OnOpenMenu() {
-        Instantiate(menu, new Vector3(0, 0, 0), Quaternion.identity);
+        if (GameObject.Find("Pause Menu(Clone)") == null) {
+            Instantiate(menu, new Vector3(0, 0, 0), Quaternion.identity);
+        }
     }
 }

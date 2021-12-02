@@ -242,6 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42bc0a3e3c9a688438e3851a5a73867e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  victim: {fileID: 2221689899872083641}
 --- !u!1 &2221689899872083641
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,14 +536,14 @@ PrefabInstance:
     - target: {fileID: 6700443196055887941, guid: 4dedd10425df72847afb982b55dfcd17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1610735260299641754}
+      objectReference: {fileID: 7295058293903784926}
     - target: {fileID: 6700443196055887941, guid: 4dedd10425df72847afb982b55dfcd17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1081576212590383676}
     - target: {fileID: 6700443196055887941, guid: 4dedd10425df72847afb982b55dfcd17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: KillDieMurder
       objectReference: {fileID: 0}
     - target: {fileID: 6700443196055887941, guid: 4dedd10425df72847afb982b55dfcd17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
